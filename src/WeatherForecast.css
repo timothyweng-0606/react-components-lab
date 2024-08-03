@@ -1,0 +1,42 @@
+*{
+    background-color: gray;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section .weather {
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .weather span {
+    font-weight: bold;
+  }
+  
+  .weather img {
+    max-width: 100px;
+    height: auto;
+    border:1px solid black;
+    margin: 0 auto;
+  }
+  
+  .weather p {
+    margin: 5px 0;  /* Add margin to separate paragraphs */
+  }
+
+  .weather {
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;  /* Add margin to separate individual weather elements */
+    text-align: center;
+    display: flex;
+    flex-direction: column;  /* Ensure items inside each weather element are in a column */
+  }
+  
